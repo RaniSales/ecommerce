@@ -1,23 +1,22 @@
 import styled from "styled-components";
 
 export const MainContainer = styled.div`
-  margin:auto;
-  width: 80%;
-  display: flex;
-  grid-template-columns: 15% 15% 15%;
-  grid-template-rows: auto;
-  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    font-size: 12px;
-  }
+  display: block;
+  flex-direction: column;
+
+
 `
 
 export const CardContainer = styled.div`
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  align-items: end;
   text-align: center;
   margin: 7px;
-  color:white;
+  color:black;
   box-shadow: 5px 7px 5px #323638;
   h2,p{
-    text-shadow: 10px 10px 5px blue;
+    text-shadow: 10px 10px 5px gray;
   }
   p{
     font-size: 0.9em;
@@ -62,21 +61,6 @@ export const CardContainer = styled.div`
 `;
 
 export const ProdutoBotao = styled.button`
-  cursor: pointer;
-  border:none;
-  outline: none;
-  border-radius: 5px;
-  color:white;
-  padding: 10px;
-  background:black;
-  margin-top: 10%;
-  :hover{
-    background-image: linear-gradient(to right, black,darkblue,blueviolet, rgb(228, 60, 161,0.5))
-  }
-  @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    padding: 3px;
-    margin: 5px;
-    font-size: 5px;
-    border-radius: 2px;
-  }
+
 `
+

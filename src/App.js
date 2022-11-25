@@ -10,6 +10,7 @@ function App() {
       <Header />
     <Cards />
     <Footer />
+    <Carrinho />
     </div>
   );
 }
