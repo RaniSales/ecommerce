@@ -9,12 +9,19 @@ export const MainContainer = styled.div`
 
 export const CardContainer = styled.div`
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 20% 20% 20% 20%;
   align-items: end;
+  justify-content: center;
   text-align: center;
   margin: 7px;
+  gap: 1%;
   color:black;
   box-shadow: 5px 7px 5px #323638;
+
+  div {
+    border-radius: 10px;
+    border:2px solid black;
+  }
   h2,p{
     text-shadow: 10px 10px 5px gray;
   }
@@ -35,7 +42,7 @@ export const CardContainer = styled.div`
   img {
     display: flex;
     width: 25%;
-    height: 40%;
+    height: 20%;
     border: 2px solid black;
     margin:0 auto;
     margin-top:5px;

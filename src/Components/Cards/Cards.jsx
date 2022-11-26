@@ -28,13 +28,16 @@ export default function Cards() {
         <MainContainer>
             <CardContainer>
                 {produtos.map(produto => (
-                    <p key={produto.Id}>
+                    <div key={produto.Id}>
                         <img src={produto.photo} alt="" />
                         <h1>{produto.name}</h1>
                         <h2>R$: {valorInteiro(produto.price)} </h2>
                         <p>{produto.description}</p>
-                    </p>
+                        <button> Comprar</button>
+                    </div>
                 ))}
+
+                
             </CardContainer>
 
         </MainContainer>);
