@@ -1,4 +1,4 @@
-
+/*
 const iconDisplay = () => {
 
     if (props.cart && props.cart.total_unique_items > 0) {
@@ -22,3 +22,4 @@ const iconDisplay = () => {
 
 </Modal>
 
+*/

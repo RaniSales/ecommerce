@@ -1,4 +1,4 @@
-{props.cart && props.cart.total_unique_items > 0 ? (
+/*{props.cart && props.cart.total_unique_items > 0 ? (
     <>
         <Item.Group divided>
             {props.cart.line_items.map(item => (
@@ -45,3 +45,4 @@
 
 
 
+*/

@@ -1,4 +1,4 @@
-import './App.css';
+/*import './App.css';
 import Cards from './Components/Cards/Cards';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -92,4 +92,4 @@ function App() {
 
 <CartItemsContext.Provider value={cartHelperFunctions}>
     <Nav cart={cart} emptyCart={emptyCart}/>
-</CartItemsContext.Provider>
+</CartItemsContext.Provider>*/
