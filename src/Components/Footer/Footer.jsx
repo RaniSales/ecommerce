@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <h1>oi</h1>
+      <h1>footer</h1>
     </div>
   );
 }
