@@ -1,7 +1,5 @@
 import {
-  Button,
   Box,
-  DialogActions,
   DialogContent,
   DialogTitle,
 } from "@mui/material";
@@ -54,6 +52,7 @@ cart.forEach(element => {
   }
 
   return (
+
     <Box
     display={open ? "block" : "none"}
       onClose={handleClose}
@@ -61,8 +60,7 @@ cart.forEach(element => {
         position: "absolute",
         top: "0",
         right: "0",
-        height: "100vh",
-        width: "32vw",
+        height:"100vh"
       }}
     >
       <TitleCart>
@@ -81,14 +79,15 @@ cart.forEach(element => {
         <DialogTitle onClick={handleClose}
          sx={{ 
          cursor:"pointer",
-         color:"#FFFFFF"
+         color:"#FFFFFF",
+         fontsize:"20em"
           }}>
           x
         </DialogTitle>
         
       </TitleCart>
 
-      <DialogContent sx={{ backgroundColor: "#0F52BA" }}>
+      <DialogContent sx={{ backgroundColor: "#0F52BA"}}>
         {cart.map((produto) => {
           return (
             <MainContainer key={produto.id}>
@@ -113,6 +112,7 @@ cart.forEach(element => {
       </DialogContent>
         <ButtonFinish onClick={handleClose}>Finalizar compra</ButtonFinish>
     </Box>
+ 
   );
 }
 

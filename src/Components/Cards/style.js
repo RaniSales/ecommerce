@@ -17,7 +17,8 @@ export const CardContainer = styled.div`
 
   @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     display: grid;
-    grid-template-columns: 60%;
+    grid-template-columns:60%;
+    margin:auto;
     grid-template-rows: auto;
     gap:8px
   }

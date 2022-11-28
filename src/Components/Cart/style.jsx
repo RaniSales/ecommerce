@@ -1,7 +1,5 @@
 import styled from "styled-components"
 
-
-
 export const TitleCart = styled.div`
     background-color:#0F52BA;
     display: flex;
@@ -65,8 +63,8 @@ export const ButtonFinish = styled.button`
     color: #FFFFFF;
     text-align: center;
     width: 100%;
-    height: 10%;
-    font-size: 1.5em;
+    height: 60px;
+    font-size: 1.7em;
     cursor: pointer;
 `
 export const TotalValue = styled.div`

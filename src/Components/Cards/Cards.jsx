@@ -1,9 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { BASE_URL } from "../../constants/urls";
-import { MainContainer, CardContainer, ContainerProdutos } from "./style";
+import { MainContainer, CardContainer} from "./style";
 import { GlobalContext } from "../../global/GlobalContext";
-import { Container } from "@mui/system";
+
 
 export default function Cards() {
   const [produtos, setProdutos] = useState([]);
